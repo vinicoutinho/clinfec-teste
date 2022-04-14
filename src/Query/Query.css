@@ -1,0 +1,85 @@
+.background-query {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    position: relative;
+    overflow: hidden;
+}
+
+.form-Query {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.header-Query {
+    width: 100%;
+    height: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.title {
+    width: 40%;
+    height: 100%;
+    display: flex;
+    margin-left: 30px;
+}
+
+.Query {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    background-color: aliceblue;
+    position: relative;
+    flex-direction: column;
+    top: 20px;
+}
+
+.menu-Query {
+    width: 100%;
+    height: 40%;
+    display: flex;
+    flex-direction: column;
+    background-color: beige;
+}
+
+.menu-sup {
+    width: 70%;
+    height: 50%;
+    justify-content: center;
+    display: flex;
+}
+
+.menu-input {
+    width: 45%;
+    height: 100%;
+    display: flex;
+}
+
+.menu-buttom {
+    width: 45%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    top: 15px;
+}
+
+.menu-inf {
+    width: 70%;
+    height: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.form-table {
+    width: 100%;
+    height: 60%;
+    display: flex;
+}

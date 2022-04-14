@@ -1,0 +1,122 @@
+.background-Patient {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    position: relative;
+    overflow: hidden;
+}
+
+.effect-Patient {
+    width: 100%;
+    height: 100%;
+    background-color: #36BACA;
+    clip-path: polygon(0% 70%, 100% 95%, 100% 100%, 0% 100%);
+}
+
+.form-Patient {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    position: absolute;
+}
+
+.header-Patient {
+    width: 100%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.header-btn {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    top: 50px;
+}
+
+.Patient {
+    width: 100%;
+    height: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    top: 10px;
+}
+
+.input-Patient {
+    width: 100%;
+    height: 550px;
+    display: flex;
+    align-content: center;
+}
+
+.Patient-A {
+    width: 75%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.input-sup {
+    width: 100%;
+    height: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.input-inf {
+    width: 100%;
+    height: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    bottom: 50px;
+}
+
+.input-sup2 {
+    width: 100%;
+    height: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    left: -40px;
+    bottom: 100px;
+}
+
+.input-btn {
+    width: 88%;
+    height: 10px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    position: relative;
+    bottom: 50px;
+}
+
+.inf-A {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: left;
+    margin-left: 5px;
+}
+
+.inf-B {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: left;
+    margin-left: 5px;
+    position: relative;
+    right: 80PX;
+}

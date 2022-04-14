@@ -1,0 +1,13 @@
+.btn {
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    font-size: 25px;
+    font-weight: 800;
+    letter-spacing: 2px;
+    background-color: #2BC77A;
+    color: #FFF;
+    cursor: pointer;
+}
